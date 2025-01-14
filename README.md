@@ -54,64 +54,18 @@ The Iris dataset contains 150 samples with 4 features:
   - Iris-versicolor  
   - Iris-virginica  
 
-## Project Structure  
-
-```plaintext  
-├── data/  
-│   └── Iris.csv           # Dataset file  
-├── src/  
-│   └── iris_analysis.py   # Main script for analysis and modeling  
-├── results/  
-│   └── visualizations/    # Generated plots and confusion matrices  
-├── README.md              # Project documentation  
-└── LICENSE                # License information  
-
-##Setup and Installation
-
-#Clone the repository:
-
-git clone https://github.com/your-repo-name.git  
-cd your-repo-name  
-
-#Create a virtual environment (optional but recommended):
-
-python -m venv venv  
-source venv/bin/activate   # On Linux/Mac  
-venv\Scripts\activate      # On Windows  
-
-#Install required dependencies:
-
-pip install -r requirements.txt  
-
-#Ensure the dataset (Iris.csv) is in the data/ directory.
-
-##Usage
-
-#Run the script:
-
-python src/iris_analysis.py  
-
-#Modify the sample_data variable in the script to test with new inputs:
-
-
-sample_data = [[5.1, 3.5, 1.4, 0.2]]  # Replace with your values  
-
-#View generated visualizations in the results/visualizations/ folder.
-
-##Results
+## Results  
 
 The implemented models achieve the following approximate accuracies:
+
 Logistic Regression: ~97%
+
 KNN: ~96%
+
 Decision Tree: ~96%
 
+The confusion matrix and classification report provide further insights into model performance.
+![image](https://github.com/user-attachments/assets/bae5230f-f776-4937-bffa-47d9df997b8c)
 
-##Future Work
+![image](https://github.com/user-attachments/assets/46d126c2-f257-4748-9118-d9b0466dca62)
 
-Implement additional models like Random Forest and Support Vector Machine (SVM).
-Perform hyperparameter tuning for better accuracy.
-Deploy the model as a web application.
-
-License
-
-This README file includes all essential sections, formatted appropriately for clarity and usability
