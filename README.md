@@ -65,53 +65,53 @@ The Iris dataset contains 150 samples with 4 features:
 │   └── visualizations/    # Generated plots and confusion matrices  
 ├── README.md              # Project documentation  
 └── LICENSE                # License information  
-Setup and Installation
-Clone the repository:
 
-bash
-Copy code
+##Setup and Installation
+
+#Clone the repository:
+
 git clone https://github.com/your-repo-name.git  
 cd your-repo-name  
-Create a virtual environment (optional but recommended):
 
-bash
-Copy code
+#Create a virtual environment (optional but recommended):
+
 python -m venv venv  
 source venv/bin/activate   # On Linux/Mac  
 venv\Scripts\activate      # On Windows  
-Install required dependencies:
 
-bash
-Copy code
+#Install required dependencies:
+
 pip install -r requirements.txt  
-Ensure the dataset (Iris.csv) is in the data/ directory.
 
-Usage
-Run the script:
+#Ensure the dataset (Iris.csv) is in the data/ directory.
+
+##Usage
+
+#Run the script:
 
 python src/iris_analysis.py  
-Modify the sample_data variable in the script to test with new inputs:
+
+#Modify the sample_data variable in the script to test with new inputs:
 
 
 sample_data = [[5.1, 3.5, 1.4, 0.2]]  # Replace with your values  
-View generated visualizations in the results/visualizations/ folder.
 
-Results
-The following models were trained and evaluated:
+#View generated visualizations in the results/visualizations/ folder.
 
-Model	Accuracy
-Logistic Regression	~97%
-K-Nearest Neighbors	~96%
-Decision Tree	~96%
-Sample Confusion Matrix
+##Results
 
-Future Work
+The implemented models achieve the following approximate accuracies:
+Logistic Regression: ~97%
+KNN: ~96%
+Decision Tree: ~96%
+
+
+##Future Work
+
 Implement additional models like Random Forest and Support Vector Machine (SVM).
 Perform hyperparameter tuning for better accuracy.
 Deploy the model as a web application.
+
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
 
 This README file includes all essential sections, formatted appropriately for clarity and usability
