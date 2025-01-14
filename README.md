@@ -8,12 +8,7 @@ This project explores the Iris dataset to analyze its features and implement mac
 - [Features](#features)  
 - [Technologies Used](#technologies-used)  
 - [Dataset](#dataset)  
-- [Project Structure](#project-structure)  
-- [Setup and Installation](#setup-and-installation)  
-- [Usage](#usage)  
 - [Results](#results)  
-- [Future Work](#future-work)  
-- [License](#license)  
 
 ## Overview  
 
