@@ -29,7 +29,7 @@ The Iris dataset is a classic dataset for classification problems. This project 
 
 ## Technologies Used  
 
-- Python 3.x  
+- Python 3.15
 - Libraries:  
   - [pandas](https://pandas.pydata.org/)  
   - [numpy](https://numpy.org/)  
